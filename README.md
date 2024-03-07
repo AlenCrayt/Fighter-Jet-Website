@@ -1,2 +1,2 @@
-#Fighter Jets Website
+# Fighter Jets Website
 A simple website which host a catalogue of various fighter jets which the user can filter through specific fighter jet generations, clicking on the articles will give a short history of the plane in question and some media related to it. Users can also compare different jets via a stat card system.
