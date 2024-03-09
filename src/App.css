@@ -21,6 +21,16 @@ h1, h2, h4, h5, h6, p, nav, a{
   background-color: rgb(56, 91, 139);
 }
 
+#filters {
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+#mainSection{
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
 #articles{
   img{
     width: 300px;

@@ -51,7 +51,7 @@ export default function App() {
         <h1>Fighters</h1>
         <h4>A webpage dedicated to showcasing fighter jets</h4>
       </header>
-      <main className="container text-center">
+      <main className="container text-center" id="mainSection">
         <FighterCarousel carousel_assets={F_L[random.int(0, F_L.length - 1)]} />
         <FighterCategories clicked_gen={gen_received} clicked_display={stats_or_articles}/>
         {showStats && (<CardComparer cards_list={card_collection} plane_list={F_L}/>)}

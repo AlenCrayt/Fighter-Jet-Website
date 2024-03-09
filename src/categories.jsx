@@ -10,7 +10,7 @@ export default function Categories({clicked_gen, clicked_display}) {
     }
 
     return (
-        <div className="container text-center">
+        <div className="container text-center" id="filters">
             <nav className="row">
                 <h5 onClick={() => gen_selected(0)} className="col" id="categories">All</h5>
                 <h5 onClick={() => gen_selected(1)} className="col" id="categories">1st Generation</h5>
